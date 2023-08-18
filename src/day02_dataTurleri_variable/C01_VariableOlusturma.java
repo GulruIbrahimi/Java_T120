@@ -6,22 +6,23 @@ public class C01_VariableOlusturma {
 
         int sayi;
 
-        // deklerasyon sadece bir kez yapılabilir
-        // ama değer ataması istendiği kadar yapılabilir
+        // Deklarasyon SADECE bir kez yapilabilir
+        // ama deger atamasi istendigi kadar olabilir
+
 
         // boolean sayi = 20;
 
-        // bir variable değer atanmadan da deklare edilebilir
-        // ancak değer atanmayan bir variable kullanılamaz
+        // bir variable deger atanmadan da deklare edilebilir
+        // ancak deger atanmayan bir variable kullanilamaz
         // System.out.println(sayi);
 
-        sayi = 20;
+        sayi = 20 ;
 
-        System.out.println(sayi); // 21. satırda sayi variable'nın değeri 20
+        System.out.println(sayi); // 21. satirda sayi variable'nin degeri  20
 
-        sayi = sayi + 10;
+        sayi = sayi + 10 ;
 
-        System.out.println(sayi); // 25. satırda sayi variable'nın değeri 30
+        System.out.println(sayi); // 25.satirda sayi variable'nin degeri 30
 
     }
 }
